@@ -1,0 +1,142 @@
+/**reset**/
+* {
+    padding: 0;
+    margin: 0;
+    background: #000000
+}   
+
+/**wrap**/
+#wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/**header**/
+#header {
+    overflow: hidden;
+}
+/**h1**/
+h1 {
+    float: left;
+    color: white;
+
+}
+/**카테고리**/
+.nav {
+    float: left;
+    margin-left: 100px;
+    color: white;
+    list-style: none;
+}
+.nav li {
+    float: left;
+    height: 63px;
+    line-height: 63px;
+    padding: 0 106px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #2E2E2E
+}
+.nav li:hover {
+    background: white;
+    color: #000000
+}
+.nav li:visited {
+    text-decoration: none;
+    color: #000000
+}
+a {
+    float: left
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color: white;
+}
+
+#imgad {
+    color: white;
+}
+
+#contents {
+    float: left;
+}
+
+
+.id input, .pass input {
+    width: 150px;
+    height: 1px;
+    padding: 18px 12px;
+    border: 1px solid white;;
+    font-size: 12px;
+    font-weight: 700;
+    outline: 0;
+    transition: border-color .15s linear;
+}
+
+.btLogin button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #2E2E2E;
+    transition: all .15s linear;
+    margin-bottom: 20px;
+}
+
+.btnSignUp button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #2E2E2E;
+    transition: all .15s linear;
+}
+
+.lo {
+    float: left;
+    padding-top: 20px;
+}
+
+
+.ad {
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        color: white;
+        background: #2e2e2e;
+}
+
+.footer p{
+    background: #2E2E2E;
+}
+
+.join button{
+    width: 500px;
+    height: 100px;
+    background: #2E2E2E;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 390px;
+}
+
+.join button:hover{
+    color: skyblue;
+    
+}
+
